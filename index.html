@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Arena</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .Sections{
+            width: 100vw;
+            height: 100vh;
+        }
+        nav{
+            padding: 10px;
+            background-color: rgb(253, 253, 253);
+            /* backdrop-filter: blur(40px); */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100vw;
+            position:fixed;
+            gap: 40px;
+            /* margin-top: 10px; */
+        }
+        .links{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .links a{
+            color:black;
+            text-decoration: none;
+            font-size: large;
+            
+        }
+        .logo{
+            margin-left: -200px;
+        }
+        .home{
+            height: 100vh;
+            /* background: url(./assets/images/hackthon.jpg); */
+            background-color: rgba(0, 0, 0, 0.784);
+        }
+        .container{
+            display: flex;
+            
+        }
+        .slogan{
+            display: flex;
+            flex-direction:center;
+            align-items: center;
+            flex-direction: column;
+            gap: 0px;
+        }
+        .first{
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+            margin-top: 200px;
+            font-size: xx-large;
+            margin-left: 40px;
+            font-weight: bold;
+            font-family: cursive;
+            background-color: red;
+            width: 200px;
+        }
+        .second{
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+            margin-left: 400px;
+            font-family: cursive;
+            font-size: xx-large;
+            font-weight: bold;
+            margin-top: 30px;
+            background-color: black;
+            color: aliceblue;
+            width: 250px;
+        }
+        .third{
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+            margin-left: 40px;
+            font-family: cursive;
+            font-size: xx-large;
+            font-weight: bold;
+            margin-top: 30px;
+            background-color: red;
+            color: black;
+            width: 200px;
+        }
+        .images{
+            margin-left: 100px;
+        }
+        .content{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        .participation{
+            height: 100vh;
+            background: url(./assets/images/hackthon.jpg);
+            
+        }
+        .container2{
+            background-color: rgba(83, 160, 208, 0.095);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .container2 p{
+            margin-top: 50px;
+            color: rgb(165, 119, 188);
+            
+        }
+        .content3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 50px;
+            background-color: rgba(0, 0, 255, 0.347);
+        }
+        input,textarea{
+            width: 300px;
+        }
+        textarea{
+            width: 300px;
+            height: 150px;
+        }
+        form{
+            background-color: rgb(37, 7, 65);
+            padding: 20px;
+            gap: 1000px;
+        } 
+    </style>
+</head>
+<body>
+   <nav>
+    <div class="logo"><img src="./assets/icons/logo.png" alt="" height="40px"></div>
+    <div class="links">
+    <a href="#section1"> <i><img src="./assets/icons/home.png" alt="" height="20px" ></i> Home</a>
+    <a href="#section2"> <i><img src="./assets/icons/program.png" alt="" height="20px" ></i> Events</a>
+    <a href="#section3"> <i><img src="./assets/icons/participation.png" alt="" height="20px" ></i> Participation</a>
+    <a href="#section4"> <i><img src="./assets/icons/chat.png" alt="" height="20px" ></i> Forums</a>
+    </div>
+   </nav> 
+   <div class="Sections Section1" id="section1">
+    <div class="home">
+        <div class="container">
+            <div class="slogan">
+                <div class="first"> Innovate.</div>
+                <div class="second">Collaborate.</div>
+                <div class="third">Code.</div>
+            </div>
+            <div class="images" style="margin-top: 200px; ">
+                <img src="./assets/images/coding.jpg" alt="" height="400px">
+            </div>
+        </div>
+
+    </div>
+   </div>
+   <div class="Sections section2" id="section2">
+    <div class="events">
+        <div class="content">
+            <div class="pic1">
+                <img src="./assets/images/design.png" alt="" height="400px">
+            </div>
+            <div class="pic2">
+                <img src="./assets/images/develop.png" alt="" height="400px">
+                <p></p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="Sections section3" id="section3">
+    <div class="participation">
+    <div class="container2">
+<p>
+&nbsp; &nbsp; &nbsp;<b>Hackathon Rules, Date & Venue </b> <br/><br/>
+
+
+&nbsp; &nbsp; &nbsp;📅<b> Date: 2025/02/25</b><br/>  
+&nbsp; &nbsp; &nbsp;<b>📍 Venue: Somewhere </b><br/><br/> <br/>
+<b>
+&nbsp; &nbsp; &nbsp;Rules:<br/>  
+&nbsp; &nbsp; &nbsp;1. Team Size: 2-5 members.<br/>  
+&nbsp; &nbsp; &nbsp;2. Project Scope: Must be developed within the hackathon duration.<br/>  
+&nbsp; &nbsp; &nbsp;3. Original Work: No pre-built projects; all work must be created during the event.<br/>  
+&nbsp; &nbsp; &nbsp;4. Code of Conduct: Maintain professionalism and respect all participants.<br/>  
+&nbsp; &nbsp; &nbsp;5. Submission Deadline:Projects must be submitted by 10AM.<br/>
+&nbsp; &nbsp; &nbsp;6. Judging Criteria: Based on innovation, functionality, design, and presentation.<br/> 
+&nbsp; &nbsp; &nbsp;7. Use of Tools: Any programming language or design tool is allowed (e.g., Figma, GitHub).<br/> 
+&nbsp; &nbsp; &nbsp;8. Intellectual Property: Teams retain ownership of their projects.<br/>  
+&nbsp; &nbsp; &nbsp;9. Help & Collaboration: Mentors are available, but plagiarism is strictly prohibited.<br/> 
+&nbsp; &nbsp; &nbsp;10.Final Presentation: Each team must pitch their project within the given time limit.  </b>
+</p>
+
+<button style="margin-top: 600px; padding: 10px; background-color: rgb(92, 92, 122); color: white; font-weight: bold;
+font-size: large;">Join us></button>
+</div>
+    </div>
+   </div>
+   <div class="Sections section4" id="section4">
+    <div class="forum">
+        <div class="content3">
+            <form action="">
+                <div class="name">
+                <input type="text" placeholder="Your Name">
+                </div>
+                <div class="task">
+                <input type="text" placeholder="Event you want to participate">
+                </div>
+                <div class="email">
+                <input type="email" placeholder="Your Email">
+                </div>
+                <div class="message">
+                <textarea name="" id="" placeholder="Your message...."></textarea>
+                </div>
+                <div class="btn"> 
+                    <button style="padding: 10px; color: white; background-color: rgb(92, 92, 122); ">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
